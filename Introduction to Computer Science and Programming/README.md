@@ -52,7 +52,7 @@
 3.选择蓝，红，绿作为三个界面的主题颜色，更加美观大方
 
 ### 链接
-#### 点击查看[搜索引擎网页](https://007dxr.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/project_3/task2.html)
+#### 点击查看[搜索引擎网页](https://007dxr.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/project_3/task2/task2.html)
 
 #### 网页预览
 ![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/project_3/task2/preview2.png)
@@ -77,7 +77,7 @@
 3.在页面尾部重新标明了时间地点等信息，并设置了“To the Top”回到页面顶部功能，和页面顶部呼应
 
 ### 链接
-#### 点击查看[自制html网页](https://007dxr.github.io/homework_3/task3/task3.html)
+#### 点击查看[自制html网页](https://007dxr.github.io/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/project_3/task3/task3.html)
 
 #### 网页预览
 ![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/project_3/task3/preview3.png)
