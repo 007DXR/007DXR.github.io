@@ -1,0 +1,159 @@
+ul,li{margin:0;padding:0}
+.tujian-left{
+	width:25%;
+	position: relative;
+	height:450px;
+	float: left;
+}
+ul {
+	list-style: none;
+}
+/* 小于 650px*/
+@media screen and (max-width: 650px) {
+	.tujian-left {
+		/* width: auto; */
+		float: none;
+	}
+	.tujian-right {
+		width: 80% !important;
+		/* float: none; */
+		/*不并排显示而是堆叠起来*/
+	}
+}
+.left-nav .drop-right {
+	position: relative;
+	width: 200px;
+}
+
+.drop-right>a {
+	display: inline-block;
+	text-decoration: none;
+	width: 200px;
+	height: 70px;
+	padding-left: 80px;
+	text-align: left;
+	line-height: 85px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 5px;
+	/* border:1px red solid; */
+	position: relative;
+	/* border-bottom: solid 1px black; */
+	/* text-decoration: underline; */
+	
+}
+.drop-right>a:hover{
+	font-size: 20px;
+}
+
+.drop-right .cur{ 
+	position: relative;
+}
+.drop-right .cur:after { 
+	content: " "; 
+	height: 0.24rem; 
+	background: black; 
+	position: absolute; 
+	bottom: 0rem;	
+	width: 0px;
+	left: 50%; 
+	transform: translateX(-50%);
+}
+.cur:hover.cur:after{	
+	width: 12rem;
+	left: 70%;
+	transform: translateX(-50%);
+}	
+
+.tujian-right{
+	/* position: relative; */
+	width: 65%;
+	/* float: right; */
+	right: 250px;
+	border-radius: 10px;
+	/* box-shadow: 5px 5px gray ; */
+	overflow: hidden;
+	/* padding-bottom: 30px; */
+	padding: 30px 30px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+p{
+	margin: 30px;
+}
+
+p span{
+	font-size: 30px;
+	padding-right: 5px;
+}
+
+.tujian-img{
+	width: 90%;
+	height: 300px;
+	/* height: 40%; */
+	border-radius: 10px;
+	background-size: cover;
+	/* background-size: 100% 100%; */
+	margin: 20px auto;
+}
+.feed-img{
+	background-image: url(../image/tujian.jpg);
+}
+.ill-img{
+	background-image: url(../image/ill.jpg);
+}
+.adopt-img{
+	background-image: url(../image/adopt.jpg);
+}
+.oper-img{
+	background-image: url(../image/yimitan.jpg);
+}
+.lu-img{
+	background-image: url(../image/limeiren.jpg);
+}
+.tujian-title{
+	margin: 30px auto 20px 30px;
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 5px;
+}
+
+.tujian-right{
+	animation-name: upAnimation;
+	transform-origin: center center;
+	/* cursor: pointer; */
+}
+
+.icon{
+	color: black;
+  	/* vertical-align: -0.15em; */
+  	fill: currentColor;
+  	margin: 10px auto;
+  	transition: font-size 0.25s linear, width 0.25s linear;
+  	overflow: hidden;
+}
+.icon-catwalk{
+	position: absolute;
+	color: rgb(228, 192, 175);
+	bottom: 0px;
+	right: 10px;
+	font-size: 50px;
+	z-index: 1000;
+}
+
+.icon-maoliang,.icon-ill,.icon-cat,.icon-adopt,.icon-oper{
+	position: absolute;
+	width: 70px; height: 70px;
+    vertical-align: -0.15em;
+	/* color: rgb(228, 192, 175); */
+	overflow: hidden;
+	/* color: black; */
+	top: 0px;
+	left: 0px;
+}
+
+.cur:hover svg{
+	width: 80px; height: 80px;
+}

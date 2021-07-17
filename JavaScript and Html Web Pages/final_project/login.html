@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Login</title>
+        <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css">
+        <style>
+          /* stylelint-disable property-no-vendor-prefix */
+            a,
+            a:focus,
+            a:hover {
+              color: #555;
+            }
+
+            /* Custom default button */
+            .btn-default,
+            .btn-default:hover,
+            .btn-default:focus {
+              color: #333;
+              text-shadow: none; /* Prevent inheritance from `body` */
+              background-color: #fff;
+              border: 1px solid #fff;
+            }
+
+
+            /*
+            * Base structure
+            */
+
+            html,
+            body {
+              height: 100%;
+              background-image: url(image/cat-40.jpg);
+              width: 100%;
+              height: 100%;
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+              /*background-color: #333;*/
+            }
+            body {
+              color: #fff;
+              text-align: center;
+              text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+            }
+
+            /* Extra markup and styles for table-esque vertical and horizontal centering */
+            .site-wrapper {
+              display: table;
+              width: 100%;
+              height: 100%; /* For at least Firefox */
+              min-height: 100%;
+              -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+              box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
+            }
+            .site-wrapper-inner {
+              display: table-cell;
+              vertical-align: top;
+            }
+            .cover-container {
+              margin-right: auto;
+              margin-left: auto;
+            }
+
+            /* Padding for spacing */
+            .inner {
+              padding: 30px;
+            }
+
+
+            /*
+            * Header
+            */
+            .masthead-brand {
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+
+            .masthead-nav > li {
+              display: inline-block;
+            }
+            .masthead-nav > li + li {
+              margin-left: 20px;
+            }
+            .masthead-nav > li > a {
+              padding-right: 0;
+              padding-left: 0;
+              font-size: 16px;
+              font-weight: 700;
+              color: #555; /* IE8 proofing */
+              color: rgba(255, 255, 255, .75);
+              border-bottom: 2px solid transparent;
+            }
+            .masthead-nav > li > a:hover,
+            .masthead-nav > li > a:focus {
+              background-color: transparent;
+              border-bottom-color: #a9a9a9;
+              border-bottom-color: rgba(255, 255, 255, .25);
+            }
+            .masthead-nav > .active > a,
+            .masthead-nav > .active > a:hover,
+            .masthead-nav > .active > a:focus {
+              color: #fff;
+              border-bottom-color: #fff;
+            }
+
+            /*
+            * Cover
+            */
+
+            .cover {
+              padding: 0 20px;
+              text-align: center;
+            }
+            .cover .btn-lg {
+              padding: 10px 20px;
+              font-weight: 700;
+            }
+
+            /*
+            * Affix and center
+            */
+
+          
+            .container{
+              width: 440px;
+              position: relative;
+              background: inherit;
+              padding: 0px;
+            }
+            ul{
+              width: 440px;
+            }
+            li{
+              width: 220px;
+            }
+            .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+              background-color: rgba(255, 255, 255, .45);
+              color: #fff;
+
+            }
+            #mytab-content::before{
+              background: inherit;
+              position: absolute;
+              box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.25);
+              filter: blur(6px);
+              z-index: -1;
+            }
+            #mytab-content{
+              border:1px solid #ddd;
+              border-radius: 0 0 18px 18px;
+              width: 440px;
+              padding: 15px;
+              /*background-color: rgba(255, 255, 255, .45);*/
+              /*color:#555*/
+            }
+            .form-signin {
+              max-width: 400px;
+              padding: 10px;
+              margin: 0 auto;
+            }
+            .form-signin .form-signin-heading{
+              margin-bottom: 10px;
+            }
+            .form-signin .form-control {
+              position: relative;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              height: auto;
+              padding: 10px;
+              font-size: 16px;
+            }
+            .form-signin .form-control:focus {
+              z-index: 2;
+            }
+            .form-signin input[type="password"] {
+              margin-bottom: 10px;
+              border-top-left-radius: 0;
+              border-top-right-radius: 0;
+            }
+            .form-group{
+              margin-top: 30px;
+              width: 370px;
+              height: 50px;
+            }
+            label{
+              margin-top:10px;
+              font-size: 16px;
+              display: none;
+            }
+            .btn{
+              width: 120px;
+              margin: 0px auto;
+            }
+            h3{
+              font-size: 14px;
+              margin-bottom: 30px;
+            }
+            .vcode{
+              position: relative;
+            }
+            .vcode-btn{
+                width: 100px;
+                position: absolute;
+                right: 60px;
+                bottom: 100px;
+                margin: 0 auto;
+              }
+            .login-form {
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              position: relative;
+              z-index: 100;
+              background: inherit;
+              border-radius: 18px;
+              overflow: hidden; /* 隐藏多余的模糊效果 */
+            }
+
+            .login-form::before {
+              content: "";
+              width: calc(100% + 20px);
+              height: calc(100% + 20px);
+              position: absolute;
+              top: -10px;
+              left: -10px;
+              overflow: hidden;
+              background: inherit;
+              box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.25);
+              filter: blur(6px);
+              z-index: -1;
+            }
+            @media screen and (min-width: 768px) {
+              /* Pull out the header and footer */
+              .masthead {
+                position: fixed;
+                top: 0;
+              }
+              .site-wrapper-inner {
+                vertical-align: middle; /* Start the vertical centering */
+              }
+              .masthead,
+              .cover-container {
+                width: 100%; /* Must be percentage or pixels for horizontal alignment */
+              }
+              .masthead-brand {
+                float: left;
+              }
+              .masthead-nav {
+                float: right;
+              }
+              label{
+                display: inline-block;
+              }
+              .vcode-btn{
+                width: 100px;
+                position: absolute;
+                right: 60px;
+                bottom: 100px;
+                margin: 0 auto;
+              }
+            }
+            @media screen and (min-width: 992px) {
+              .masthead,
+              .cover-container {
+                width: 700px;
+              }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="site-wrapper">
+
+            <div class="site-wrapper-inner">
+      
+              <div class="cover-container">
+      
+                <div class="inner cover">
+                  <h1>
+                    <img src="image/font3.png" alt="">
+                  </h1>
+                  <h3>为了方便您的评论、收藏功能，我们需要您使用学号或者手机号登录。</h3>
+                  <div class="container login-form">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="#studentid" data-toggle="tab">学号登录</a></li>
+                      <li><a href="#phone" data-toggle="tab">手机登录</a></li>
+                    </ul>
+                    <div id="mytab-content" class="tab-content">
+                      <div class="tab-pane fade in active" id="studentid">
+                        <form class="form-signin">
+                          <div class="form-group">
+                            <label for="studentid" class="col-sm-3 control-label">学号:</label>
+                            <div class="col-sm-9">
+                              <input type="text" class="form-control" id="studentidnum" placeholder="请输入学号">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="password" class="col-sm-3 control-label">密码:</label>
+                            <div class="col-sm-9">
+                              <input type="password" class="form-control" id="passwords" placeholder="请输入密码">
+                            </div>
+                          </div>
+                          <a class="btn btn-lg btn-primary btn-block"  onclick="return verify();" href="favorite.html">登录</a>
+                        </form>
+                      </div>
+                      <div class="tab-pane fade" id="phone">
+                        <form class="form-signin">
+                          <div class="form-group">
+                            <label for="phone" class="col-sm-3 control-label">手机号:</label>
+                            <div class="col-sm-9">
+                              <input type="text" class="form-control" id="phonenum" placeholder="请输入手机号">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="vcode" class="col-sm-3 control-label">验证码:</label>
+                            <div class="col-xs-8 col-sm-5 vcode">
+                              <input type="text" class="form-control" id="vcode" placeholder="请输入验证码">
+                            </div>
+                            <button type="button" class="btn btn-warning vcode-btn" onclick="phone_verify()">获取验证码</button>
+                          </div>
+                          <a class="btn btn-lg btn-primary btn-block" href="favorite.html" onclick="return code_verify()">登录</a>
+                        </form>
+                      </div>
+                    </div>
+                </div>
+              </div>
+      
+            </div>
+      
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+          function verify(){
+            var id=document.getElementById("studentidnum").value;
+            if(id.length<10){
+              alert("请使用北大学号登录");
+              return false;
+            }
+            var pw=document.getElementById("passwords").value;
+            if(pw.length==0){
+              alert("请输入密码");
+              return false;
+            }
+            return true;
+          }
+          function phone_verify(){
+            var phone=document.getElementById("phonenum").value;
+            if(phone.length!=11){
+              alert("手机号输入错误，应有11位");
+              return false;
+            }
+            return true;
+          }
+          function code_verify(){
+            var code=document.getElementById("vcode").value;
+            if(code.length==0){
+              alert("请输入手机号获取验证码");
+              return false;
+            }
+            return true;
+          }
+        </script>
+    </body>
+
+</html>
