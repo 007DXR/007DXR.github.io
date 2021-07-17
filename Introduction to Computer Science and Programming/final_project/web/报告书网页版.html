@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="气象台数据的爬取与分析">
+  <meta name="author" content="董欣然">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>气象台数据的爬取与分析</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-olOxEXxDwd20BlATUibkEnjPN3sVq2YWmYOnsMYutq7X8YcUdD6y/1I+f+ZOq/47" crossorigin="anonymous"> -->
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/product/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="./css/product.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+          viewBox="0 0 24 24" focusable="false">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10" />
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+        To the Top
+      </a>
+      <!-- <a class="alert alert-primary" href="#">课程名称：计算机科学与编程入门</a> -->
+
+      <a class="alert alert-info" href="#">作业名称：气象台数据的爬取分析</a>
+      <a class="alert alert-danger">姓名：董欣然 </a>
+      <a class="alert alert-success">学号：1900013018</a>
+      <!-- <a class="alert alert-primary" href="#"></a> -->
+    </div>
+  </nav>
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
+    style="background-image: url(./backimg.jpeg);">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="alert alert-warning">大作业: <hr>
+        气象台数据的爬取与分析</h1>
+
+      <div class="alert alert-danger">
+        <li>为了直观地了解中国近年的气候变化，我爬取了<a href="http://www.tianqihoubao.com/">气象网站</a>2011年至2020年十年来，中国主要城市(省会城市)的气象数据。</li>
+        <li>数据信息总计443,520条。</li>
+        <li>我使用数据库sqlite存储数据，使用pandas进行数据的统计分析，使用pycharts等工具将数据可视化</li>
+        <li>通过充分地挖掘利用数据，我们可以轻松直观地了解到国内气候的变化，了解气候与省份、年份、月份之间的潜在联系。</li>
+      </div>
+
+      <h5 class="alert alert-success">姓名：董欣然<br>学号：1900013018</h5>
+      
+      
+    </div>
+    <!-- <div class="product-device shadow-sm d-none d-md-block"></div>
+  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
+  <a class="btn btn-primary" href="#">以下是作业视频展示</a>
+  <hr>
+  <video src="报告书视频版.mp4" autoplay controls width="1000" align="center" margin:0 auto></video>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">中国气温地图</h2>
+
+      </div>
+      <img src="./output/全国气温图.png" alt="">
+      <div class="my-3 py-3">
+        <h2 class="display-5">点击下方按钮查看详情</h2>
+      </div>
+      <a class="btn btn-primary" href="./output/中国2011年气温变化.html">2011年</a>
+      <a class="btn btn-primary" href="./output/中国2012年气温变化.html">2012年</a>
+      <a class="btn btn-primary" href="./output/中国2013年气温变化.html">2013年</a>
+      <a class="btn btn-primary" href="./output/中国2014年气温变化.html">2014年</a>
+      <a class="btn btn-primary" href="./output/中国2015年气温变化.html">2015年</a>
+      <a class="btn btn-primary" href="./output/中国2016年气温变化.html">2016年</a>
+      <a class="btn btn-primary" href="./output/中国2017年气温变化.html">2017年</a>
+      <a class="btn btn-primary" href="./output/中国2018年气温变化.html">2018年</a>
+      <a class="btn btn-primary" href="./output/中国2019年气温变化.html">2019年</a>
+      <a class="btn btn-primary" href="./output/中国2020年气温变化.html">2020年</a>
+      <hr>
+      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: auto; border-radius: 21px 21px 0 0;">
+        <p class="alert alert-info">
+          我对近十年来各大城市总计221,760条气温数据进行了统计，整合出10张年份气温地图。每张地图又由12张月份气温地图按时间轴组合在一起，用色彩表示温度差异，可以直观地看出各地区的气温差异、各月份的气温变化。
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+      style="background-image: url(./backimg.jpeg);">
+      <div class="my-3 p-3">
+        <!-- <h2 class="display-5">踏青</h2> -->
+
+
+        <!-- <h2 class="alert alert-warning">年月份温度3D折线图</h2> -->
+        <!-- <a class="alert alert-success" href="#">空气质量：优</a>
+        <a class="alert alert-danger" href="#">宜：踏青</a>
+        <a class="alert alert-info" href="#">活动：班级团建</a> -->
+
+      </div>
+      <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: auto; border-radius: 21px 21px 0 0;">
+
+        <div class="alert alert-danger">
+          <h2>年月份温度3D折线图</h2>
+          我对各地区的气候变化展开进一步分析，下图是一张 <a href="./output/北京近十年各月份气温变化.html">年月份温度3D折线图</a>。
+          3D折线图以年份为x轴，月份为y轴，气温为z轴，既展现了一年中气温的变化，又展现了不同年份之间的气温差异。
+        </div>
+
+        <img src="./output/年月份气温变化.png" style="width: 80%;">
+        <p style="color: ghostwhite;">点击下方按钮查看详情</p>
+        <a class="btn btn-primary" href="./output/北京近十年各月份气温变化.html">3D折线图</a>
+        <hr>
+
+      </div>
+    </div>
+
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: auto; border-radius: 21px 21px 0 0;">
+
+        <div class="alert alert-info">
+          <h2>晴雨表</h2>
+          气温不能完全刻画气候特征，我们从气象的角度进一步分析各地区间的气候特点。
+          <hr>通过统计计算，我绘制了33张<a href="./output/晴雨表.html">晴雨表</a>。晴雨表中给出了中国主要城市2020年中各种天气出现的天数以及在全年中的占比。
+          <hr><a class="btn btn-primary" href="./output/晴雨表.html">查看详情</a>
+        </div>
+        <img src="./output/晴雨表.png" style="width: 80%;">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+
+      <div class="my-3 py-3">
+        <h2 class="display-5">全年最高(低)温度柱状图</h2>
+        <h2 class="display-5">全年平均温度折线图</h2>
+        <!-- <p style="color: ghostwhite;">点击下方按钮查看详情</p> -->
+        <a class="btn btn-primary" href="./output/温度表.html">查看详情</a>
+        
+      </div>
+      <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: auto; border-radius: 21px 21px 0 0;">
+        <div class="alert alert-info">一天内的温度有高低变化，不同地域的昼夜温差也不尽相同。 <hr>
+          故我绘制了一张并行图，其中包含了33个主要城市全年最高(低)温度柱状图、平均温度折线图。<hr>
+          图中的柱状部分表示一天内的温度变化范围，折线图中的顶点表示当天的平均气温。<hr>
+          图中顶部是选项卡，可以查看任意几个城市的气温变化。<hr>
+          图中底部是可拖拽的时间轴。可以详细查看某一时间段的气温详情（时间的最小精度是一天）。
+        </div>
+        
+      </div>
+      <!-- <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"> -->
+      <!-- <div class="my-3 p-3">
+        <h2 class="display-5">Another headline</h2>
+        <p class="lead">And an even wittier subheading.</p>
+      </div> -->
+      <div class="bg-white shadow-sm mx-auto" style="width: 45%; height: auto; border-radius: 21px 21px 0 0;">
+        <p class="alert alert-warning">图中选择的城市是拉萨、南宁、海口。展现的时间区间是2020年5月14日至2020年11月8日。可以看出南宁、海口的气候较为相近，拉萨气温低、昼夜温差大。
+          <img src="./output/各城市全年温度变化1.png" style="width: 80%;">
+        </p>
+        <!-- </div> -->
+
+      </div>
+
+      <!-- <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"> -->
+      <div class="bg-white shadow-sm mx-auto" style="width: 45%; height: auto; border-radius: 21px 21px 0 0;">
+        <div class="alert alert-success">图中选择的城市是乌鲁木齐、深圳。<hr>
+          展现的时间区间是2020年7月5日至2020年7月13日。触碰时间轴（如图显示的是7月9日）会浮现标签页，标签页上标明了城市当天的气温详情。<hr>
+          <img src="./output/各城市全年温度变化2.png" style="width: 80%;">
+        </div>
+      </div>
+      <!-- </div> -->
+
+    </div>
+
+  </div>
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5" style="background-image: url(./backimg.jpeg);">
+      <h1 class="alert alert-warning">总结</h1>
+
+      <p class="alert alert-danger">
+        我使用了一系列python工具，对气象台数据进行了爬取、存储、清理、计算、可视化。最终绘制了五类图表：
+        中国气象地图、年月份温度3D折线图、晴雨表、全年最高(低)温度柱状图以及全年平均温度折线图。为了充分地展现数据，每类图表又包含多张子图。
+        此网页展现的是可视化成果，并不能完全展示本人的工作量，详请请查阅报告书以及视频。
+
+      <h5 class="alert alert-success">姓名：董欣然<br>学号：1900013018</h5>
+
+      <a class="btn btn-primary" href="#">To the Top</a>
+    </div>
+  </div>
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+          viewBox="0 0 24 24" focusable="false">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10" />
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+        <small class="d-block mb-3 text-muted"> 谢谢你的阅读</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>课程名称</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">计算机科学与编程入门</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>作业名称</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">爬取气象台数据</a></li>
+
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>姓名</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">董欣然</a></li>
+
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>学号</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">1900013018</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-+y+krhFR0UcDYh1BimjL71GifENdMrMw3mJIteOyhJC1MgLzPCCitjqUa9+5OI/k"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
