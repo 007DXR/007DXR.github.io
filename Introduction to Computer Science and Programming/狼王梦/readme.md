@@ -45,16 +45,24 @@
 
 我实现了对小说《狼王梦》中角色的词频分析。分别采用了柱状图，词云，漏斗图，和饼状图来展示角色在小说中的重要程度。利用图表的方式可以清晰直观地了解整部小说的人物构成。
 
-### 链接
-[狼王梦角色词频柱状图](https://007DXR.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/project_2/狼王梦角色词频柱状图.html)
-#### 网页预览
-![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/project_3/task1/preview.png)
+### 5.1 链接 [狼王梦角色词频柱状图](https://007DXR.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/狼王梦/html/狼王梦角色词频柱状图.html)
+### 预览
+![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/%E7%8B%BC%E7%8E%8B%E6%A2%A6/images/bar.png)
 
-[狼王梦角色词频词云](https://007DXR.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/project_2/狼王梦角色词频词云.html)
 
-[狼王梦角色词频漏斗图](https://007DXR.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/project_2/狼王梦角色词频漏斗图.html)
+### 5.2 链接 [狼王梦角色词频词云](https://007DXR.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/狼王梦/html/狼王梦角色词频词云.html)
+### 预览
+![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/%E7%8B%BC%E7%8E%8B%E6%A2%A6/images/wordCloud.png)
 
-[狼王梦角色词频饼状图](https://007DXR.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/project_2/狼王梦角色词频饼状图.html)
+
+### 5.3 链接 [狼王梦角色词频漏斗图](https://007DXR.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/狼王梦/html/狼王梦角色词频漏斗图.html)
+### 预览
+![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/%E7%8B%BC%E7%8E%8B%E6%A2%A6/images/loudou.png)
+
+
+### 5.4 链接 [狼王梦角色词频饼状图](https://007DXR.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/狼王梦/html/狼王梦角色词频饼状图.html)
+### 预览
+![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/%E7%8B%BC%E7%8E%8B%E6%A2%A6/images/pie.png)
 
 
 
@@ -85,8 +93,8 @@
 3.通过分析可知，角色的互动和故事情节的发展息息相关，从角色关系图可以宏观领略整部小说。
 
 ### 链接
-#### 点击查看[《狼王梦》角色关系图](https://007dxr.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/project_3/task1/《狼王梦》角色关系图.html)
+#### 点击查看[《狼王梦》角色关系图](https://007dxr.github.io/Introduction%20to%20Computer%20Science%20and%20Programming/狼王梦/html/《狼王梦》角色关系图.html)
 
 #### 网页预览
-![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/project_3/task1/preview.png)
+![](https://github.com/007DXR/007DXR.github.io/blob/main/Introduction%20to%20Computer%20Science%20and%20Programming/%E7%8B%BC%E7%8E%8B%E6%A2%A6/images/relationship.png)
 
