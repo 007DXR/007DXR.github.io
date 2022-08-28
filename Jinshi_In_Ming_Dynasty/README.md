@@ -1,5 +1,5 @@
-![](https://007dxr.github.io/Jinshi_In_Ming_Dynasty/figure/fig.jpg)
-
+# [明代进士可视化查询系统](https://007dxr.github.io/Jinshi_In_Ming_Dynasty/index.html)
+点击上方进入
 
 # (一)	成果展示
 ## 1.	概览
@@ -94,6 +94,7 @@
  
  ![](https://007dxr.github.io/Jinshi_In_Ming_Dynasty/figure/fig13.jpg)
 图13
+
 当选定人口最少的“灶籍”时，“陈”姓占据绝对的人口优势（如图13所示）。
 
 地域特征分析
@@ -104,6 +105,7 @@
 
 ![](https://007dxr.github.io/Jinshi_In_Ming_Dynasty/figure/fig15.jpg)
 图15
+
 明朝1550至1600年间，南方的进士数量明显增多（图16）。通过移动时间轴，可以观察到南方的进士数量逐年增加，这和历史上的经济和政治中心南移密切相关。
  
  ![](https://007dxr.github.io/Jinshi_In_Ming_Dynasty/figure/fig16.jpg)
