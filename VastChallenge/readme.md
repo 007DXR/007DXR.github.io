@@ -20,12 +20,12 @@
 # 2	项目设计及最终系统解释
 下图为项目设计可视化系统总图。
 
-[图 1: 可视化系统](https://007dxr.github.io/VastChallenge/figure/fig1.jpg)
+#### 图 1: 可视化系统![](https://007dxr.github.io/VastChallenge/figure/fig1.jpg)
 
 系统主要分为左右两部分，共 6 个组件，左半部分为新闻数据的可视化，有 4 个组件，分别是时间轴组件，关键词词云、新闻列表和关键词折线图，点击新闻列表，可以弹出有新闻详细   信息的提示框。右半部分为公司人员数据的可视化，有 2 个组件，分别为公司内部人员邮件收发关系力导向图和人物履历轨迹图，分别点击力导向图的点和边，可以弹出有人物履历和邮件  收发详细信息的提示框。下面分步介绍这些组件的设计想法和使用方法。
 ## 2.1	新闻数据可视化
 
-[图 2: 可视化系统左侧](https://007dxr.github.io/VastChallenge/figure/fig2.jpg)
+#### 图 2: 可视化系统左侧![](https://007dxr.github.io/VastChallenge/figure/fig2.jpg)
 
 如图2，可视化系统左侧为针对新闻数据处理可视化，从上往下分别为词云、时间轴、折线  图和新闻列表。时间轴定位新闻时间范围，词云展现新闻的关键信息，折线图展现关键词按时间
  
@@ -35,17 +35,17 @@
 
  
 
-[图 3: 关键词词云](https://007dxr.github.io/VastChallenge/figure/fig3.jpg)
+#### 图 3: 关键词词云![](https://007dxr.github.io/VastChallenge/figure/fig3.jpg)
 
  
-[图 5: 新闻列表](https://007dxr.github.io/VastChallenge/figure/fig4.jpg)
+#### 图 5: 新闻列表![](https://007dxr.github.io/VastChallenge/figure/fig4.jpg)
  
-[图 4: 时间轴组件](https://007dxr.github.io/VastChallenge/figure/fig5.jpg)
+#### 图 4: 时间轴组件![](https://007dxr.github.io/VastChallenge/figure/fig5.jpg)
 
 
 
 
-[图 6: 关键词折线图](https://007dxr.github.io/VastChallenge/figure/fig6.jpg)
+#### 图 6: 关键词折线图![](https://007dxr.github.io/VastChallenge/figure/fig6.jpg)
  
 
 
@@ -60,27 +60,27 @@
 如图5，为新闻列表，居可视化系统左下方。为了展示所有新闻，方便用户查阅，我们设计  了新闻列表。列表将新闻按时间从古至今排序，显示新闻标题。点击新闻条目，可以如图7显示  该新闻详细信息，包括新闻标题、所属媒体、具体发布时间和详细内容。新闻列表受时间轴组件   和词云组件影响。
  
  
-[图 7: 新闻弹窗](https://007dxr.github.io/VastChallenge/figure/fig7.jpg)
+#### 图 7: 新闻弹窗![](https://007dxr.github.io/VastChallenge/figure/fig7.jpg)
 
 ### 2.1.4	关键词折线图
 如图6，为关键词折线图，居可视化系统左侧中部。为了展示按时间分布关键词的热度，我  们设计了折线图，将新闻逐年统计，横轴是新闻的所属年份，纵轴是该年份下新闻的数量。按横   轴时间显示各个时间段中特定关键词出现的频率，来检测是否有新闻中关键词在某一时间段频  繁出现。折线图受时间轴组件和词云组件影响。
 ## 2.2	公司人员数据可视化
 
-[图 8: 可视化系统右侧](https://007dxr.github.io/VastChallenge/figure/fig8.jpg)
+#### 图 8: 可视化系统右侧![](https://007dxr.github.io/VastChallenge/figure/fig8.jpg)
 
 如图8，可视化系统右侧为针对公司人员数据处理可视化，从上往下分别是邮件收发关系力  导向图和人物履历轨迹折线图。邮件力导向图通过邮件收发展示了公司人员的关系，人物履历  轨迹图展现了公司人员入公司前的大致履历轨迹。在交互中，力导向图的时间轴和  legend  控制力导向图的数据内容，点击力导向图中的人物，控制履历轨迹图中的折线数量。
  
  
 
-[图 9: 邮件收发关系力导向图](https://007dxr.github.io/VastChallenge/figure/fig9.jpg)
+#### 图 9: 邮件收发关系力导向图![](https://007dxr.github.io/VastChallenge/figure/fig9.jpg)
 
 ### 2.2.1	邮件收发关系力导向图及人物信息弹窗
 如图9，为邮件收发关系力导向图，居可视化系统右上。邮件表现了公司群体中两两之间交  往的状态，某种程度上可以展现公司内部人员交往情况，发现潜在可疑线索。力导向图可以完成   很好的聚类，方便用户看出公司人员间的亲疏关系。于是我们根据公司内部邮件往来设计了力  导向图，依据邮件的数量设置引力和斥力。
 力导向图下方是日期时间轴，左侧是一天内具体时间时间轴。由于邮件是从 2014/01/06 到2014/01/17，通过选择起始日期限定邮件的日期范围，可以查看非工作日和工作日的邮件收发   区别；通过选择一天 24 小时内不同的时间段，可以查看不正常时间段邮件收发情况。力导向图上方是不同部门的 legend，公司员工分为 Administration、Engineering、Executive、Facilities、Information Technology、Security 六个不同的部门，单击 legend 可以选定部门，对邮件进行筛选。
 
-[图 11: 邮件详细信息弹窗	](https://007dxr.github.io/VastChallenge/figure/fig11.jpg)
+#### 图 11: 邮件详细信息弹窗	![](https://007dxr.github.io/VastChallenge/figure/fig11.jpg)
 
-[图 12: 邮件详细信息弹窗](https://007dxr.github.io/VastChallenge/figure/fig12.jpg)
+#### 图 12: 邮件详细信息弹窗![](https://007dxr.github.io/VastChallenge/figure/fig12.jpg)
 
 如图11，为了展示邮件收发的详细信息，点击两个人之间的连线，弹窗弹出双方邮件往来详   情，即邮件标题。此外，如图12，为了展示人物基本信息，点击每个人的圆点，弹窗弹出人的基   本详情，包含出生、性别、所属国别、入职年月等等。
 
@@ -92,18 +92,18 @@
 # 3	发现的结果
 本可视化系统旨在方便警察分析浩如烟海的文本数据。我们使用我们的可视化工具，对相关案情进行了分析。在已知案情发生时间为 2014 年 1 月 20 日到 2014 年 1 月 21 日的境况下， 我们在新闻检索模块中选定该时间区间，同时，本次案件发生在 kronos，是关于 Gastech 员工的失踪事件，故选定关键字  kronos，Gastech，employee，miss。在根据选定的关键词筛选出的新闻列表中，我们可以发现一些关键信息（图13）：14 名员工被绑架；POK 组织有重要嫌疑； Edward Vann 有重大嫌疑。
 
-[图 13](https://007dxr.github.io/VastChallenge/figure/fig13.jpg)	
+#### 图 13![](https://007dxr.github.io/VastChallenge/figure/fig13.jpg)	
 
-[图 14](https://007dxr.github.io/VastChallenge/figure/fig14.jpg)
+#### 图 14![](https://007dxr.github.io/VastChallenge/figure/fig14.jpg)
 
 通过选定关键词“绑架”，查看新闻，我们可以初步认定，POK 策划了此次失踪案件。在词云图中选定“POK”，”Vann“，看到一条有价值的线索：Edvard Vann 有着和 POK 成员相同的姓氏。有就是说 POK 大多成员的姓氏是 Vann，是 Abila 本地人（图14）。
 观察邮件 csv 数据后，我们可以发现大量的群发邮件无法提取有效信息，因此对邮件进行了筛选。筛选后可以发现除了群发邮件外，不同部门之间只有少量的邮件往来。进一步筛选邮件时间后，我们可以发现一些可疑的邮件往来，经过点击后可以查看邮件详情（图15）。
 
 
-[图 15](https://007dxr.github.io/VastChallenge/figure/fig15.jpg)
+#### 图 15![](https://007dxr.github.io/VastChallenge/figure/fig15.jpg)
 
 
-[图 16](https://007dxr.github.io/VastChallenge/figure/fig16.jpg)
+#### 图 16![](https://007dxr.github.io/VastChallenge/figure/fig16.jpg)
 
 
 结合新闻中的线索我们可以得知，Isia Vann 的姓氏和 POK 成员相似，从时空轨迹图中我们可以得知，Isia Vann 在 Abila 上大学，在 Kronos 当地服役，最后进入 GesTech 公司，因此我们得出初步的判断：Isia Vann 可能是 POK 成员（图16）。由新闻报道可知：政府断定 POK
