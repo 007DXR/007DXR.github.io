@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script type="text/javascript" src="./js/data.js"></script>
+    <script type="text/javascript" src="./js/echarts.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+</head>
+
+<body style="background-color: antiquewhite;">
+
+    
+    <div id="squarified" style="height: 400px; width: 860px; top: 400px; left: 650px; position: absolute;"></div>
+    
+    <div style="text-align: center;font-family: 楷体;top: 280px; left: 640px; position: absolute;">
+        <!-- 明代进士录 -->
+        <div style=" font-size: 60px;position: relative;">明代进士录
+        </div>
+        <!-- <div id="title_year"></div> -->
+        <div id="title_year" style="text-align: center;">公元1371至1610年</div>
+        <p style="color: brown;">请尝试滑动时间轴（左），点击按钮。<br>注意：请点击“更新地图”以变化视图（右）<br>所有组件均可交互。
+       </p>
+    </div>
+    <p style="color: brown;top: 130px; left: 980px;position: absolute;font-family: 楷体;">轻触地图区域<br>显示详情</p>
+    <div id="pie_name" style="height: 300px; width: 300px; top: 10px; left: 680px; position: absolute;"></div>
+    <div id="subject" style="height:400px; width: 700px;position: absolute;"></div>
+    <div id="huji" style="height:400px; width: 700px; top: 420px;left: 0px; position: absolute;"></div>
+    
+    <script src="./js/rebuild.js"></script>
+    <script src="./js/huji_year.js"></script>
+    <script src="./js/subject_year.js"></script>
+    <script src="./js/squarified.js"></script>
+    <script src="./js/pie.js"></script>
+    <script src="./js/map_people.js"></script>
+    <script src="./js/map.js"></script>
+
+    <div id="observablehq-layers-b515ecda" style=" top: 0px; left: 1000px; position: absolute;"></div>
+    <div id="observablehq-viewof-b-b515ecda" style=" top: 5px; left: 1100px; position: absolute;"></div>
+
+    <script type="module">
+        import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+        import define from "https://api.observablehq.com/@007dxr/dxr_map.js?v=3";
+        const main = new Runtime().module(define, name => {
+            if (name === "layers") return new Inspector(document.querySelector("#observablehq-layers-b515ecda"));
+            if (name === "viewof b") return new Inspector(document.querySelector("#observablehq-viewof-b-b515ecda"));
+            if (name == "b") return { fulfilled() { setYear(); } };
+
+        });
+        function setYear() {
+            main.redefine("pref_pgn", dfs(map_people, startyear, endyear));
+        };
+    </script>
+</body>
+
+</html>
