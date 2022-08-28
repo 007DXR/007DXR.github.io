@@ -1,0 +1,31 @@
+#container_cloud{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: calc(800% / 15.50);
+  height: auto;
+}
+
+.click-only-text {
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  .click-only-text::selection {
+      background: none;
+    }
+
+  .word-default {
+      fill: rgb(192, 28, 28);
+      font-weight: normal;
+    }
+  .word-hovered {
+      fill: rgb(212, 37, 37);
+      font-weight: bold;
+    }
+  .word-selected {
+      fill: rgb(56, 16, 16);
+      font-weight: bold;
+    }

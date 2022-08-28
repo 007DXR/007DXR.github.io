@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html class=" -moz-">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<title></title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/cloudstyle.css">
+	<link rel="stylesheet" href="css/liststyle.css">
+	<link rel="stylesheet" href="css/alert.css">
+	<link rel="stylesheet" href="css/card.css">
+	<link rel="stylesheet" href="css/w3.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/d3.js"></script>
+	<script src="js/d3.layout.cloud.js"></script>
+	<script src="js/echarts.min.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/data_.js"></script>
+
+</head>
+
+<body>
+	<div style="margin :5px">
+		<h4>VastChallenge2014</h4>
+		<!-- <h4>Bug调不(队)</h4> -->
+		
+		 <h5>熊伟民 <br>
+		 张启哲<br>
+		 谢悦<br>
+		 董欣然<br></h5>
+	</div>
+
+	<div id="container_cloud" >
+		<svg id="word-cloud" font-family="Verdana, Arial, Helvetica, sans-serif" text-anchor="middle">
+		</svg>
+	</div>
+	<div id='linechart' style="position:absolute;top: 40%;  width: 50%;height: 25%; "></div>
+
+	<div class="container" style="position:absolute;top: 30%; left: 5%; width: 40%; ">
+		<input type="date" id="start_date" class="start_date" onchange="refreshthegraph()" value="1982-10-02"
+			style="position:relative;top: 80px;left: -50px;">
+		<input type="date" id="end_date" class="end_date" onchange="refreshthegraph()" value="2014-01-21"
+			style="position:relative;top: 80px;left: 50px;">
+		<div class="slider-wrapper">
+			<div id="slider-range" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+				<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left:0%;"></span>
+				<span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 100%;"></span>
+			</div>
+			<div class="marker marker-0">1982</div>
+			<div class="marker marker-25">1990</div>
+			<div class="marker marker-50">1998</div>
+			<div class="marker marker-75">2006</div>
+			<div class="marker marker-100">2014</div>
+		</div>
+	</div>
+	
+	<div class="fav_list" style="position:absolute;top: 60%; left: 5%; width: 40%; height: 40%; ">
+		<div class="fav_list_box">
+			<div class="fav_list_title">
+				<h3 class="fav_list_title_h3">Related News
+				</h3>
+			</div>
+			<div class="my_fav_con">
+				<ul class="my_fav_list" id="showlist">
+					<li class="my_fav_list_li">
+						<p class="my_fav_list_p"></p>
+					</li>
+					<li class="my_fav_list_li">
+						<p class="my_fav_list_p"></p>
+					</li>
+					<li class="my_fav_list_li">
+						<p class="my_fav_list_p"></p>
+					</li>
+					<li class="my_fav_list_li">
+						<p class="my_fav_list_p"></p>
+					</li>
+					<li class="my_fav_list_li">
+						<p class="my_fav_list_p"></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="relation" style="position:absolute;top: 0%; right: 0%; width: 50%;height: 66%; z-index: 10;"></div>
+	<div id='resume' style="position:absolute;top: 65%; right: 0%; width: 53%;height: 40%; z-index: 10;"></div>
+
+	<script src="js/NewsList.js"></script>
+	<script src="js/LineChart.js"></script>
+	<script src="js/WordCloud.js"></script>
+	<script src="js/MainCloud.js"></script>
+	<script src="js/emailData.js"></script>
+	<script src="js/emailNodeData.js"></script>
+	<script src="js/resumeData.js"></script>
+	<script src="js/emailRelationship.js"></script>
+	<script src="js/Timeline.js"></script>
+	<script src="js/Detail.js"></script>
+	<script src="js/Resume.js"></script>
+	<script src="js/index.js"></script>
+
+</body>
+
+</html>

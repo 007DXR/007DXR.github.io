@@ -1,0 +1,55 @@
+﻿LastName,FirstName,Country,Employment,Gender,MilitaryService,MilitaryType,MilitaryDischarge,Birth,CitizenshipStart,PassportIssue,EmploymentStart
+Bramar,Mat,Tethys,Assistant to CEO,Male,,,,1981/12/19,1981/12/19,2007/12/12,2005/7/1
+Ribera,Anda,Tethys,Assistant to CFO,Female,,,,1975/11/17,1975/11/17,2009/6/15,2009/10/30
+Pantanal,Rachel,Tethys,Assistant to CIO,Female,,,,1984/8/22,1984/8/22,2013/6/13,2013/10/1
+Lagos,Linda,Tethys,Assistant to COO,Female,,,,1980/1/26,1980/1/26,2009/11/1,2010/2/1
+Mies.Haber,Ruscella,Kronos,Assistant to Engineering Group Manager,Female,ArmedForcesOfKronos,HonorableDischarge,1984/10/1,1964/4/26,1964/4/26,,2003/4/2
+Forluniau,Carla,Kronos,Assistant to IT Group Manager,Female,ArmedForcesOfKronos,GeneralDischarge,2001/10/1,1981/6/2,1981/6/2,,2005/3/7
+Lais,Cornelia,Kronos,Assistant to Security Group Manager,Female,ArmedForcesOfKronos,GeneralDischarge,2011/10/1,1991/7/7,1991/7/7,,2011/12/22
+Onda,Marin,Tethys,Drill Site Manager,Male,,,,1969/12/31,1969/12/31,2005/4/15,2003/4/13
+Borrasca,Isande,Tethys,Drill Technician,Female,,,,1979/10/22,1979/10/22,2008/10/3,2004/2/18
+Calzas,Axel,Tethys,Drill Technician,Male,,,,1975/9/13,1975/9/13,2012/1/31,1997/7/17
+Orilla,Kare,Tethys,Drill Technician,Female,,,,1964/2/29,1964/2/29,2013/7/1,2005/11/12
+Orilla,Elsa,Tethys,Drill Technician,Female,,,,1982/4/12,1982/4/12,2010/2/28,2004/5/26
+Tempestad,Brand,Tethys,Drill Technician,Male,,,,1979/5/14,1979/5/14,2012/5/5,2004/6/12
+Azada,Lars,Tethys,Engineer,Male,TethanDefenseForceAir,GeneralDischarge,1995/10/1,1973/4/30,1973/4/30,2011/6/1,1995/12/1
+Balas,Felix,Tethys,Engineer,Male,TethanDefenseForceNavy,HonorableDischarge,1988/10/1,1960/3/4,1960/3/4,2005/4/15,2004/9/2
+Dedos,Lidelse,Tethys,Engineering Group Manager,Female,,,,1952/2/14,1952/2/14,2008/8/13,2003/3/1
+Frente,Birgitta,Tethys,Geologist,Female,,,,1976/7/31,1976/7/31,2006/3/17,1999/5/3
+Nubarron,Adra,Tethys,Geologist,Female,,,,1968/6/6,1968/6/6,2007/11/12,1994/7/8
+Cazar,Gustav,Tethys,Hydraulic Technician,Male,,,,1986/11/6,1986/11/6,2009/6/10,2009/9/15
+Frente,Vira,Tethys,Hydraulic Technician,Female,,,,1977/12/29,1977/12/29,2010/2/20,2001/12/1
+Vasco-Pais,Willem,Tethys,Environmental Safety Advisor,Male,,,,1975/3/18,1975/3/18,2011/11/26,2010/6/5
+Sanjorge Jr.,Sten,Tethys,President/CEO,Male,,,,1948/8/29,1948/8/29,2013/4/21,1990/11/9
+Barranco,Ingrid,Tethys,SVP/CFO,Female,,,,1961/10/26,1961/10/26,2013/7/1,2003/9/30
+Campo-Corrente,Ada,Tethys,SVP/CIO,Female,,,,1951/11/26,1951/11/26,2013/7/14,2004/10/5
+Strum,Orhan,Asteria,SVP/COO,Male,,,,1963/10/18,1963/10/18,2011/6/2,2003/8/7
+Ovan,Bertrand,Tethys,Facilities Group Manager,Male,TethanDefenseForceAir,HonorableDischarge,1993/10/1,1964/12/12,1964/12/12,2008/10/3,1998/10/1
+Arpa,Emile,Kronos,Janitor,Male,ArmedForcesOfKronos,GeneralDischarge,2012/10/1,1992/10/1,1992/10/1,,2013/3/18
+Awelon,Varro,Kronos,Janitor,Male,ArmedForcesOfKronos,GeneralDischarge,2006/10/1,1986/5/5,1986/5/5,,2012/10/22
+Coginian,Dante,Kronos,Lead Janitor,Male,ArmedForcesOfKronos,GeneralDischarge,1992/10/1,1971/12/1,1971/12/1,,1995/1/7
+Hafon,Albina,Kronos,Truck Driver,Female,ArmedForcesOfKronos,GeneralDischarge,2007/10/1,1987/6/14,1987/6/14,,2009/9/12
+Hawelon,Benito,Kronos,Truck Driver,Male,ArmedForcesOfKronos,HonorableDischarge,1999/10/1,1978/11/23,1978/11/23,,2000/2/21
+Hawelon,Claudio,Kronos,Truck Driver,Male,ArmedForcesOfKronos,GeneralDischarge,2003/10/1,1983/8/13,1983/8/13,,2007/3/13
+Mies,Henk,Kronos,Truck Driver,Male,ArmedForcesOfKronos,HonorableDischarge,2004/10/1,1984/9/23,1984/9/23,,2013/7/12
+Morlun,Valeria,Kronos,Truck Driver,Female,ArmedForcesOfKronos,HonorableDischarge,2001/10/1,1981/9/22,1981/9/22,,2003/12/2
+Morlun,Adan,Kronos,Truck Driver,Male,ArmedForcesOfKronos,HonorableDischarge,2005/10/1,1984/10/9,1984/10/9,,2006/1/14
+Morluniau,Cecilia,Kronos,Truck Driver,Female,ArmedForcesOfKronos,GeneralDischarge,2008/10/1,1988/9/2,1988/9/2,,2009/4/30
+Nant,Irene,Kronos,Truck Driver,Female,ArmedForcesOfKronos,GeneralDischarge,2005/10/1,1985/3/13,1985/3/13,,2008/11/30
+Scozzese,Dylan,Kronos,Truck Driver,Male,ArmedForcesOfKronos,HonorableDischarge,2006/10/1,1986/5/25,1986/5/25,,2007/3/1
+Bergen,Linnea,Tethys,IT Group Manager,Female,,,,1969/7/10,1969/7/10,2004/4/29,2004/7/4
+Alcazar,Lucas,Tethys,IT Helpdesk,Male,,,,1990/4/17,1990/4/17,2013/1/24,2010/11/30
+Baza,Isak,Tethys,IT Technician,Male,,,,1979/2/12,1979/2/12,2008/8/13,2002/3/20
+Calixto,Nils,Tethys,IT Technician,Male,,,,1982/3/26,1982/3/26,2012/6/12,2004/10/19
+Flecha,Sven,Tethys,IT Technician,Male,,,,1986/11/11,1986/11/11,2006/10/9,2010/10/15
+Herrero,Kanon,Tethys,Badging Office,Male,,,,1984/10/3,1984/10/3,2008/10/10,2008/11/20
+Lagos,Varja,Tethys,Badging Office,Female,,,,1976/5/1,1976/5/1,2013/7/7,2006/10/1
+Fusil,Stenig,Tethys,Building Control,Male,TethanDefenseForceArmy,HonorableDischarge,1987/10/1,1963/4/29,1963/4/29,2006/4/3,2004/2/5
+Mies,Minke,Kronos,Perimeter Control,Male,ArmedForcesOfKronos,GeneralDischarge,2011/10/1,1992/11/19,1992/11/19,,2013/5/22
+Osvaldo,Hennie,Kronos,Perimeter Control,Male,ArmedForcesOfKronos,GeneralDischarge,2010/10/1,1988/5/31,1988/5/31,,2011/6/7
+Vann,Isia,Kronos,Perimeter Control,Male,ArmedForcesOfKronos,GeneralDischarge,2007/10/1,1986/12/13,1986/12/13,,2007/12/14
+Vann,Edvard,Kronos,Perimeter Control,Male,ArmedForcesOfKronos,HonorableDischarge,2011/10/1,1991/3/18,1991/3/18,,2013/8/15
+Resumir,Felix,Tethys,Security Group Manager,Male,TethanDefenseForceArmy,HonorableDischarge,1997/10/1,1959/6/30,1959/6/30,2005/3/20,2003/9/15
+Bodrogi,Loreto,Kronos,Site Control,Male,ArmedForcesOfKronos,HonorableDischarge,2008/10/1,1989/4/17,1989/4/17,,2013/8/17
+Cocinaro,Hideki,Tethys,Site Control,Male,TethanDefenseForceArmy,HonorableDischarge,2009/10/1,1980/12/25,1980/12/25,2013/5/25,2010/1/1
+Ferro,Inga,Kronos,Site Control,Female,ArmedForcesOfKronos,GeneralDischarge,2012/10/1,1989/6/17,1989/6/17,,2013/1/11

@@ -1,0 +1,27 @@
+#card {
+    box-shadow: 0 4px 8px 0 rgba(2, 87, 137, 0.932);
+    transition: 0.3s;
+    width: 300px;
+    height:200px;
+    border-radius: 5px;
+    overflow-y:scroll; 
+    display : inline-block
+}
+
+#card:hover {
+    box-shadow: 0 8px 16px 0 rgba(2, 87, 137, 0.932);
+}
+#card2 {
+    box-shadow: 0 4px 8px 0 rgba(187, 10, 24, 0.932);
+    transition: 0.3s;
+    width: 500px;
+    height:200px;
+    border-radius: 5px;
+    overflow-y:scroll; 
+    display : inline-block
+}
+
+#card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(187, 10, 24, 0.932);
+}
+

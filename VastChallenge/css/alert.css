@@ -1,0 +1,78 @@
+.con {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	background: rgba(0, 0, 0, .1);
+	position: absolute;
+	z-index: 20;
+}
+
+#msg {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+}
+
+.info_message {
+	color: #000;
+	background: #fff;
+	height: 400px;
+	display: inline-block;
+	width: 500px;
+	border-radius: 5px;
+}
+
+.resume_message {
+	color: #000;
+	background: #fff;
+	height: 400px;
+	display: inline-block;
+	width: 500px;
+	border-radius: 5px;
+	white-space: pre-line;
+}
+
+#alertCancel {
+	position: absolute;
+
+	width: 90px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #2e9cce;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#alertCancel {
+	top: 87%;
+	left: 75%;
+}
+
+.detail_message {
+	width: 470px;
+	height: 300px;
+
+	overflow: hidden;
+	display: inline-block;
+
+	margin: 15px;
+	color: #2b9bc5;
+	overflow-y: auto;
+	white-space: pre-line;
+}
+
+#alertCancel:hover {
+	background: rgba(118, 206, 247, 0.88);
+}
+
+.alertTitle {
+	padding: 10px;
+	height: 40px;
+	font-weight: bold;
+	background: rgb(114, 209, 255);
+	vertical-align: middle;
+	text-align: center;
+	display: block;
+}
