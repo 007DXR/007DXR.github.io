@@ -4,7 +4,7 @@
  - **北京大学**（本科四年级在读）/ 信息科学技术学院 / 智能科学与技术专业 / GPA:3.58
  - 全国青少年信息学奥林匹克竞赛**NOI铜牌** / **NOIP一等奖**
  - Github主页：https://007dxr.github.io
- #  联系方式
+#  联系方式
 - 手机：19800310035/ 17759060644
 - Email：dongxinran0805@pku.edu.cn
 - 微信号：PKU_DXR
@@ -43,8 +43,8 @@
 - [Breaking the Memory Wall for Resource-Efficient On-Device Machine Learning](https://doi.org/10.1145/3498361.3538928)：移动设备内存有限然而DNN模型训练消耗大量内存，这项工作意图提升移动设备上训练DNN模型的性能。**发表于Mobisys’22**。
 - [Adaptive Compression of 3D Models for Mobile Web Apps](https://doi.org/10.1145/3498361.3538785) ：3D模型占用资源巨大，这项工作提出3D模型的自适应压缩方法，加速Web App中3D模型的加载过程。**发表于Mobisys’22**。
 ## 出版物
-  - [《信息学奥赛一本通·提高篇》](https://book.douban.com/subject/30322791/)
-  - [《信息学奥赛⼀本通·高手训练》](https://product.dangdang.com/1705728546.html)
+- [《信息学奥赛一本通·提高篇》](https://book.douban.com/subject/30322791/)
+- [《信息学奥赛⼀本通·高手训练》](https://product.dangdang.com/1705728546.html)
 
 # 其他
 - 2020-2021学年北京大学三好学生
