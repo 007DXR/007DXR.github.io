@@ -29,8 +29,8 @@
   
 ## 前端开发
    -  [刑侦线索可视化查询系统](https://github.com/007DXR/007DXR.github.io/tree/main/VastChallenge)：使用D3.js、Echarts.js建立多模态数据交互[平台](https://007DXR.github.io/VastChallenge)，侦破VAST Challenge 2014 MC1失踪案。
-    -  [明代进士可视化查询系统](https://github.com/007DXR/007DXR.github.io/tree/main/Jinshi_In_Ming_Dynasty)：通过[可视化界面](https://007DXR.github.io/Jinshi_In_Ming_Dynasty)了解明朝进士分布动态。 
-    -    [北⼤猫协](https://007dxr.github.io/JavaScript%20and%20Html%20Web%20Pages/final_project/association.html)：基于Bootstrap框架开发“北⼤猫协”系列网页，使⽤JavaScript开发[卡片翻转游戏](https://007dxr.github.io/JavaScript%20and%20Html%20Web%20Pages/final_project/game_orange.html)。
+   -  [明代进士可视化查询系统](https://github.com/007DXR/007DXR.github.io/tree/main/Jinshi_In_Ming_Dynasty)：通过[可视化界面](https://007DXR.github.io/Jinshi_In_Ming_Dynasty)了解明朝进士分布动态。 
+   -  [北⼤猫协](https://007dxr.github.io/JavaScript%20and%20Html%20Web%20Pages/final_project/association.html)：基于Bootstrap框架开发“北⼤猫协”系列网页，使⽤JavaScript开发[卡片翻转游戏](https://007dxr.github.io/JavaScript%20and%20Html%20Web%20Pages/final_project/game_orange.html)。
     
 ## 数据挖掘
    -  [由“虐”到“甜”：数字人文视角下的女频网文情感转向](https://github.com/007DXR/Emotional-analysis-of-online-novels/blob/main/由“虐”到“甜”：数字人文视角下的女频网文情感转向.pdf)：该项目使用Python-UIautomator库，编写脚本远程控制手机，从APP中爬取小说文本和读者评论，通过NLP技术绘制情感弧，以宏观视角俯瞰女频网文的转型与变迁。该项目与中文系同学合作，获得**北京大学第三十届“挑战杯”跨学科学生课外学术科技作品竞赛三等奖。**
@@ -40,9 +40,9 @@
 
 # 科研成果
 ## 学术期刊
-- [Understanding the Impact of Visual Factors on the Experience of Loading Web Apps](https://doi.org/10.1145/3545258.3545287)：本文提出影响Web App体验的视觉指标，并且给出Web App渲染的改善建议。**发表于Internetware 2022。**
-- [Breaking the Memory Wall for Resource-Efficient On-Device Machine Learning](https://doi.org/10.1145/3498361.3538928)：移动设备内存有限然而DNN模型训练消耗大量内存，这项工作意图提升移动设备上训练DNN模型的性能。**发表于Mobisys’22**。
-- [Adaptive Compression of 3D Models for Mobile Web Apps](https://doi.org/10.1145/3498361.3538785) ：3D模型占用资源巨大，这项工作提出3D模型的自适应压缩方法，加速Web App中3D模型的加载过程。**发表于Mobisys’22**。
+- *Understanding the Impact of Visual Factors on the Experience of Loading Web Apps*：本文提出影响Web App体验的视觉指标，并且给出Web App渲染的改善建议。**（发表于Internetware 2022，https://doi.org/10.1145/3545258.3545287）**
+- *Breaking the Memory Wall for Resource-Efficient On-Device Machine Learning*：移动设备内存有限然而DNN模型训练消耗大量内存，这项工作意图提升移动设备上训练DNN模型的性能。**（发表于Mobisys’22，https://doi.org/10.1145/3498361.3538928）**
+- *Adaptive Compression of 3D Models for Mobile Web Apps*：3D模型占用资源巨大，这项工作提出3D模型的自适应压缩方法，加速Web App中3D模型的加载过程。**（发表于Mobisys’22，https://doi.org/10.1145/3498361.3538785）**
 
 ## 出版物
 - [《信息学奥赛一本通·提高篇》](https://book.douban.com/subject/30322791/)：与他人合作编著。
