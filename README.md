@@ -64,20 +64,18 @@ After that I analyzed data in multiple dimensions using Pyecharts.
 
 # PUBLICATION
 ## PAPERS
-- *Understanding the Impact of Visual Factors on the Experience of Loading Web Apps* 
-https://doi.org/10.1145/3545258.3545287 / Published on Internetware 2022
+- [*Understanding the Impact of Visual Factors on the Experience of Loading Web Apps*, Internetware 2022](https://doi.org/10.1145/3545258.3545287) 
 ```
-This work points out the visual factors play an important part on the user experience except for page loading time.
-We put forward several effective visual factors and give some suggestions to improve web page rendering.
+This work points out the visual factors play an important part on the user experience except for page loading time. We put forward several effective visual factors and give some suggestions to improve web page rendering.
 ```
-- *Breaking the Memory Wall for Resource-Efficient On-Device Machine Learning*
-https://doi.org/10.1145/3498361.3538928 / Published on Mobisys 2022
-&emsp;&emsp;&emsp;&emsp;This work introduces the Melon law to save memory resource during DNN training. When the memory runs out, we evict the highly cost tensor in greedy strategy. 
-When the evicted tensor is needed, the target tensor is recalculated from the existing tensor in memory.
-- *Adaptive Compression of 3D Models for Mobile Web Apps* 
-https://doi.org/10.1145/3498361.3538785 / Published on Mobisys 2022
-&emsp;&emsp;&emsp;&emsp;This work proposes an adaptive compression method for 3D models to speed up the loading process of 3D models in Web Apps.
-
+- [*Breaking the Memory Wall for Resource-Efficient On-Device Machine Learning*, Mobisys 2022](https://doi.org/10.1145/3498361.3538928)
+```
+This work introduces the Melon law to save memory resource during DNN training. When the memory runs out, we evict the highly cost tensor in greedy strategy. When the evicted tensor is needed, the target tensor is recalculated from the existing tensor in memory.
+```
+- [*Adaptive Compression of 3D Models for Mobile Web Apps*, Mobisys 2022](https://doi.org/10.1145/3498361.3538785)
+```
+This work proposes an adaptive compression method for 3D models to speed up the loading process of 3D models in Web Apps.
+```
 ## BOOKS
 - *Informatics Olympiad Helper · Advanced* [link](https://book.douban.com/subject/30322791/)
 - *Informatics Olympiad Helper · Exercise* [link](https://product.dangdang.com/1705728546.html)
