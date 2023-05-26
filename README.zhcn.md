@@ -14,12 +14,13 @@
 
 ### Google - Software Engineer（ 2022年6月 ~ 2022年9月 ）
 
-* Generic ETL是GooglePay部门的定制语言，我的工作是开发一套工具（名为ETL2SQL），将ETL转化为GoogleSQL。ETL2SQL工具将ETL代码长度缩减了90%，生成的GoogleSQL简洁易懂，降低开发者使用成本。为了验证转化前后ETL和GoogleSQL语义和功能等价性，我进行了大规模单元测试。最终ETL2SQL通过公司审核，成为GooglePay系统工具。
+* 我开发了一个编译器软件，该软件Google Generic ETL转化为GoogleSQL，从而使得代码量缩小了90%，生成的GoogleSQL简洁易懂，降低开发者使用成本。为了验证转化前后ETL和GoogleSQL语义和功能等价性，我进行了大规模单元测试。最终ETL2SQL通过公司审核，成为GooglePay系统工具。
 * Metric Generation是筛选大数据的方法，由我设计的子方法MetricFilter支持函数递归调用，减少开发者50%冗余工作量，该工具正确性在生产环境中得到有效验证。
 
-  
+
 # 开源项目
- 
+## 
+
 ## 软件开发
    - [ReadingMap: 一款通过行为数据可视化辅助pdf阅读的插件](https://github.com/007DXR/ReadingMap)：基于PDF.js开发浏览器插件，独创的多功能进度条极大程度上提升PDF阅读体验。该项目获得**2022年中国大学生计算机设计大赛一等奖。**
   - [基于QT框架的函数式计算器](https://github.com/007DXR/007DXR.github.io/blob/main/Functional_Calculator/presentation.pdf)：个人独立开发QT桌面端程序：[函数式计算器](https://github.com/007DXR/007DXR.github.io/tree/main/Functional_Calculator)。以逆波兰式为理论基础，独创的自定义函数功能、模式切换功能提高了计算器可扩展性。
@@ -49,6 +50,7 @@
 - [《信息学奥赛⼀本通·高手训练》](https://product.dangdang.com/1705728546.html)：与他人合作编著。
 
 # 其他
-- 2020-2021学年北京大学三好学生
-- 北京2022年冬奥会、冬残奥会优秀志愿者
-- 大学、高中时期担任班长
+- 2023年北京市优秀毕业生、北京大学优秀毕业生
+- 2021-2022学年北京大学三好学生标兵、2020-2021学年北京大学三好学生
+- 2022年北京冬奥会、冬残奥会优秀志愿者
+- 北京大学信息科学技术学院19级9班班长
